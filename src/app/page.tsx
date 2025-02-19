@@ -5,7 +5,7 @@ import { InputField, InputIcon, InputRoot } from '@/components/input';
 import { Button } from '@/components/button';
 export default function Home() {
   return (
-    <main className="max-w-[1240px] mx-auto px-5 md:py-0">
+   
       <div className="min-h-dvh flex justify-center gap-16 flex-col">
         <div className="flex flex-col gap-8 items-center md:items-start w-full 
          max-w-[550px]">
@@ -70,6 +70,5 @@ export default function Home() {
           </form>
         </div>
       </div> 
-    </main>
   );
 }
