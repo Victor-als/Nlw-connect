@@ -8,9 +8,8 @@ interface InviteLinkProps {
   inviteLink: string;
 }
 export default function InviteLinkInput({ inviteLink }: InviteLinkProps) {
-  
   function copyInviteLink() {
-    navigator.clipboard.writeText(inviteLink)
+    navigator.clipboard.writeText(inviteLink);
   }
 
   return (
@@ -18,10 +17,7 @@ export default function InviteLinkInput({ inviteLink }: InviteLinkProps) {
       <InputIcon>
         <Link className="size-5" />
       </InputIcon>
-      <InputField
-        readOnly
-        defaultValue={inviteLink}
-      />
+      <InputField readOnly defaultValue={inviteLink} />
 
       <IconButton className="ml-2" onClick={copyInviteLink}>
         <Copy className="size-5" />
