@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import logo from '../../../assets/logo-nlw.svg';
 import InviteLinkInput from './invite-link-input';
-import Ranking from './ranking';
+import { Ranking } from './ranking';
 import Stats from './stats';
 
 interface InvitePageProps {
@@ -11,8 +11,8 @@ interface InvitePageProps {
 }
 export default async function InvitePage(props: InvitePageProps) {
   const { subscriberId } = await props.params;
-  
-  const inviteLink = `http://localhost:3333/invites/23438519864/${subscriberId}`;
+
+  const inviteLink = `http://localhost:3333/invites/${subscriberId}`;
   return (
     <div
       className="min-h-dvh flex items-center justify-between gap-16 flex-col
@@ -46,7 +46,7 @@ export default async function InvitePage(props: InvitePageProps) {
           </div>
 
           <InviteLinkInput inviteLink={inviteLink} />
-          <Stats subscriberId={subscriberId}/>
+          <Stats subscriberId={subscriberId} />
         </div>
       </div>
       <Ranking />
