@@ -1,34 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# NLW-Connect
 
-## Getting Started
+Sistema de ranking de indicações por link.
 
-First, run the development server:
+O projeto necessita de uma api para rodar e funcionar perfeitamente. Para banco de dados utilizei o Docker para rodar localmente. 
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+Sobre a api, vou deixar ela disponivel em breve aqui: 
+
+# Imagens da tela.
+![Image](https://github.com/user-attachments/assets/cf8367a6-9fb2-40f4-937a-742e2ca921a2)
+![Image](https://github.com/user-attachments/assets/0b2e8d62-1b5c-44a3-83cb-5163a6a33e7b)
+
+
+## Tenologias usadas no projeto
+
+- Next.js (React.js)
+- Tailwind
+- React hook form
+- postgreSql
+- Zod
+
+
+## Para rodar o projeto localmente
+
+1. Clone o repositório:
+
+```sh
+$ git clone https://github.com/Victor-als/Nlw-connect
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Instale as dependências:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```sh
+npm install
+```
 
-## Learn More
+4. Rode localmente:
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```sh
+npm run dev
+```
