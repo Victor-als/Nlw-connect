@@ -4,7 +4,13 @@ Sistema de ranking de indicações por link.
 
 O projeto necessita de uma api para rodar e funcionar perfeitamente. Para banco de dados utilizei o Docker para rodar localmente. 
 
-Sobre a api, vou deixar ela disponivel em breve aqui: 
+Para rodar a api basta instalar as dependencias com npm install e para rodar npm run dev, se for utilizar o docker utilizar docker compose up -d
+
+Sobre a api, vou deixar ela disponivel aqui: 
+
+```sh
+https://github.com/rocketseat-education/nlw-connect-node/
+```
 
 # Imagens da tela.
 ![Image](https://github.com/user-attachments/assets/cf8367a6-9fb2-40f4-937a-742e2ca921a2)
